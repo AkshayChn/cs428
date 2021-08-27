@@ -1,0 +1,26 @@
+main {
+    max-width: 38rem;
+    padding: 2rem;
+    margin: auto;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16pt;
+}
+
+/*
+The cool Anaglyph effect on the headings is achieved using multiple text shadows. The code was inspired by Pavel Zakharoff's snippets on codepen. They can be found here: https://codepen.io/ncer/pen/BzmLyK
+*/
+
+h1 {
+  box-sizing: content-box;
+  border: none;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  text-overflow: clip;
+  letter-spacing: 0.2rem;
+  text-shadow: -3px 0 1px rgb(34,242,241, 0.7) , 3px 0 1px rgb(255,5,10, 0.7) ;
+
+}
+
