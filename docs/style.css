@@ -1,4 +1,4 @@
-main {
+html {
     max-width: 38rem;
     padding: 2rem;
     margin: auto;
@@ -6,7 +6,7 @@ main {
 
 body {
     font-family: sans-serif;
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
 /*
