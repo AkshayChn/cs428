@@ -1,5 +1,6 @@
 # Introduction
 
+
 ## Video
 
 ## Description 
@@ -10,6 +11,11 @@
 
 ## Assets and sources
 // Numbered list.
+
+Image credits for the representative image:
+Saturn V rocket, Cape Canaveral, October 1980 (https://commons.wikimedia.org/wiki/File:Saturn_V_rocket,_Cape_Canaveral,_October_1980.jpg)
+
+Tiger at Mysore Zoo (https://commons.wikimedia.org/wiki/File:Tiger_at_Mysore_Zoo.jpg)
 
 ## Explanations
 1. How is the model and its various assets representative of that location?
