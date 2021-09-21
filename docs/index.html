@@ -22,38 +22,91 @@ My UIN is 676 924 859 and my mail is achann4 at uic dot edu
 <h2 id="introduction">Introduction</h2>
 <p>This is an application built with Unity and Vuforia Engine. Pointing your camera at the right cubes turns them into intractable augmented reality knickknacks.</p>
 <ol type="1">
-<li><p>The Merge Cube turns into a scene representing Cape Canaveral, Florida.</p></li>
-<li><p>The Class Cube turns into a scene representing Mysore, a city in India, where there is a large zoo.</p></li>
+<li><p>The Merge Cube turns into a scene representing Cape Canaveral, Florida. It shows the current weather there in Fahrenheit, and also functions as a magic eight ball.</p></li>
+<li><p>The Class Cube turns into a scene representing Mysore, a city in India, where there is a large zoo. It shows the current weather there in Celcius, and also functions as a magic eight ball.</p></li>
 </ol>
 <p><img src="./images/blank-vr.png" /></p>
 <h2 id="video">Video</h2>
-<p>Video to come here!</p>
+<p><img src="./images/together.jpeg" /> Video to come here!</p>
 <h2 id="description">Description</h2>
+<p>Cape Canaveral is the primary launch base where NASA has launched some of its most historic rockets.</p>
+<p>Mysore is the cultural capital of Karnataka. A very old and beautiful city. It has a big zoo where thousands of animals are exhibited</p>
 <h3 id="how-to-use-the-app">How to use the app</h3>
+<ol type="1">
+<li><p>Open the app and point the camera at the right cube.</p></li>
+<li><p>If you’ve selected the ground plane scene, then you’ll need to tap on the screen and it will place a large knickknack on the floor seen your image.</p></li>
+</ol>
 <h3 id="how-to-build-from-the-source-on-github">How to build from the source on GitHub</h3>
 <p>Dependencies include Unity <code>Version 2019.4.28f1</code> and Vuforia <code>Version 9.8</code>.</p>
+<ol type="1">
+<li>Clone the Git Repo</li>
+<li>Open Unity Hub and add this project</li>
+<li>Add your Vuforia License into the project</li>
+<li>Go to build settings and select the appropriate scene that you want.</li>
+<li>Build the <code>apk</code> and install it in your Android phone</li>
+</ol>
 <h2 id="assets-and-sources">Assets and sources</h2>
-<p>Image credits for the representative image:</p>
+<p>Image credits for the poster image:</p>
 <ol type="1">
 <li><p>Saturn V rocket, Cape Canaveral, October 1980 (https://commons.wikimedia.org/wiki/File:Saturn_V_rocket,_Cape_Canaveral,_October_1980.jpg)</p></li>
 <li><p>Tiger at Mysore Zoo (https://commons.wikimedia.org/wiki/File:Tiger_at_Mysore_Zoo.jpg)</p></li>
 </ol>
-<h3 id="merge-cube">Merge Cube</h3>
+<h3 id="merge-cube-cape-canaveral">Merge Cube (Cape Canaveral)</h3>
+<p>Nasa Emblem: https://en.wikipedia.org/wiki/File:NASA_logo.svg</p>
+<h4 id="sounds-used-in-the-nasa-knickknack">Sounds Used in the NASA knickknack:</h4>
+<ol type="1">
+<li><p>Mission Crontrol Ambient Music by user ProtoSounds https://freesound.org/people/ProtoSounds/sounds/379269/</p></li>
+<li><p>Apollo and Mercury Sounds &amp; Sound Bites by user DudeAwesome https://freesound.org/people/DudeAwesome/sounds/386070/</p></li>
+<li><p>WINK-01.wav by user newagesoup https://freesound.org/people/newagesoup/sounds/350359/ (Used for the sound that the magic-eight-ball makes when updating text)</p></li>
+</ol>
 <h4 id="models-created-by-me">Models Created by Me</h4>
+<ol type="1">
+<li><p>Rocket</p></li>
+<li><p>Satellite- This object orbits around the cube.</p></li>
+</ol>
 <h4 id="models-used-from-the-web">Models Used from the Web</h4>
-<h3 id="class-cube">Class Cube</h3>
+<ol type="1">
+<li><p>Sputnik 1 by Ludashov Anton https://assetstore.unity.com/packages/3d/vehicles/space/3d-model-sputnik-1-192475</p></li>
+<li><p>Pipers by Maksim Bugrimov https://assetstore.unity.com/packages/3d/environments/industrial/pipers-63800</p></li>
+<li><p>Military radar by Yorzh Aleksey https://assetstore.unity.com/packages/3d/environments/military-radar-93579</p></li>
+</ol>
+<h3 id="class-cube-mysore-india">Class Cube (Mysore, India)</h3>
+<p>Ambient Sound: Jungle by user spiid https://freesound.org/people/spiid/sounds/344204/</p>
+<p>Karnataka State Emblem: https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Seal_of_Karnataka.svg/278px-Seal_of_Karnataka.svg.png</p>
 <h4 id="models-created-by-me-1">Models Created by Me</h4>
+<ol type="1">
+<li><p>Tree</p></li>
+<li><p>Fences</p></li>
+</ol>
 <h4 id="models-used-from-the-web-1">Models Used from the Web</h4>
+<ol type="1">
+<li><p>Voxel Animals Pack by Total Game Assets https://assetstore.unity.com/packages/3d/characters/animals/voxel-animals-pack-133366</p></li>
+<li><p>White Rabbit by Niwashi Games https://assetstore.unity.com/packages/3d/characters/animals/white-rabbit-138709</p></li>
+<li><p>Imperial Penguin by user Felis Chaus https://assetstore.unity.com/packages/3d/characters/animals/birds/imperial-penguin-100397</p></li>
+</ol>
 <h2 id="explanations">Explanations</h2>
 <h3 id="how-is-the-model-and-its-various-assets-representative-of-that-location">How is the model and its various assets representative of that location?</h3>
+<p>Cape Canaveral is the primary launch base where NASA has launched some of its most historic rockets. I’ve used models that are associated with space exploration.</p>
+<p>Mysore is the cultural capital of Karnataka. A very old and beautiful city. It has a big zoo where thousands of animals are exhibited. The cube displays a few animals and a fence.</p>
 <h3 id="custom-magic-8-ball-its-working-and-its-responses">Custom Magic-8-ball its working and its responses:</h3>
+<p>Unity provides a Vector3 object which can be used to compute the degree of rotation of an object. We make use of an auxiliary variable which is set to 1 every time the object is tilted below, and when it’s tilted back upright the Magic Eight Ball checks for tilt using this variable and says a new random saying.</p>
+<p>The custom sayings of Class Cube(Mysore) are slightly more casual and humorous versions of the standard sayings.</p>
 <h2 id="discussion">Discussion</h2>
 <h3 id="will-things-like-this-become-popular-in-several-years-when-ar-eye-wear-becomes-ubiquitous-and-what-kinds-of-small-physical-objects-would-benefit-from-being-enhanced-by-ar">Will things like this become popular in several years when AR eye-wear becomes ubiquitous? And what kinds of small physical objects would benefit from being enhanced by AR?</h3>
+<p>I believe things like this will become popular. There are many advantages that the virtual objects boast of as opposed to physical objects.</p>
 <ol type="1">
-<li>Novelty Items - Whose value is mainly in their novelty. Trinkets etc.</li>
-<li>Representative Place Holders - Items that are used to represent something. In the sense that their value is in the information that they provide</li>
-<li>Information Localization - Information about an object should be available as close to the object as possible. Signboards next to zoo exhibits would be useless if they were in some other location far away from the exhibit.</li>
+<li><p>Virtual Objects are easy to replicate. Every subsequent copy of a virtual object costs a very tiny fraction of what it costs to make the first one.</p></li>
+<li><p>Virtual Objects can be updates and changed very easily. It’s as simple as a software update. With smartphones people have become very used to such software patches delivered periodically. Although this has led to the unpleasant practice of companies launching unfinished software products on the promise that they will be completed in the future via patches and updates, it still has its benefits.</p></li>
+<li><p>Virtual objects are not constrained to the laws of physics. It’s easy to make fantastical objects that appear magical.</p></li>
 </ol>
+<p>Slowly we are moving towards making virtual objects feel more and more natural and one day it is a certainty that they will completely replace physical trinkets.</p>
+<p>As to the question of what kind of small physical objects would benefit from such an AR enhancement the following points should help. I believe that the items that would <em>truly</em> benefit are of the following three kinds.</p>
+<ol type="1">
+<li><p>Novelty Items - Items whose value is mainly in their novelty. (Trinkets, Keychains, etc.) These are items which capture your attention for a short duration but aren’t of much interest later. Their utility spikes at an instant and diminishes quickly. Such items can enhance both their magnitude of novelty and the duration of utility by getting enhanced by AR. A trinket that keeps changing captures your attention for a longer duration than a static one.</p></li>
+<li><p>Representative Place Holders - Items that are used to represent something. In the sense that their value is in the information that they provide. Augmented Reality enhancement is really just information refinement. A static image can only provide a limited amount information compared to a dynamic one. Therefor any object which is used as an information source or a representation of some information, benefits from getting enhanced by AR.</p></li>
+<li><p>Information Localization - Information about an object should be available as close to the object as possible. Consider signboards next to zoo exhibits that would become useless if they were put in some other location far away from the exhibit. Things can be enhanced by AR whereby all the related information pertaining to an object can be made visible very close to that object. Such objects would also benefit quite a bit from AR enhancement. Consider a drivers license being viewed through AR eye-wear of a police officer. He needn’t have to enter that info into some database in some computer, but he’ll see all the necessary info appear right next to the drivers license he is holding.</p></li>
+</ol>
+<p>Thus the future holds a special place for AR enhanced objects, it is very encouraging to endeavors that make these a reality. We are on that path.</p>
 
 </body>
 
