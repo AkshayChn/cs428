@@ -1,21 +1,10 @@
-Thin and lightweight virtual reality eye-wear
-=============================================
+Shapelab VR
+===========
 
-Facebook Reality Labs presented a paper at SIGGRAPH '20 titled ``Holographic Optics for Thin and Lightweight Virtual Reality". They introduced a prototype virtual reality eye-wear that is thin and light and looks like a pair of sunglasses.
+[Shapelab VR](https://shapelabvr.com/) is a 3D sculpting application that helps you build 3D models intuitively. It is available on [steam](https://store.steampowered.com/app/571890/Shapelab/). It is especially useful for making objects that aren't very geometric or polygonal, but rather boulbous and freeform. 
 
-![Eye Wear](https://research.fb.com/wp-content/uploads/2020/06/Holographic-optics_hero.png)
+![Video form Shapelab VR](https://shapelabvr.com/wp-content/uploads/2021/09/Shapelab_intro_video_final.mp4)
 
+While apps like Blender also allow one to sculpt like you would with clay, the keyboard and mouse workflow is no match to the intuitive feel of a virtual reality controller.
 
-
-Current VR headsets are cumbersome, large and borderline uncomfortable to wear. The invention of thin and light VR wear is essential to make VR easy to use and inviting to a larger audience.
-
-![Optical Folding](https://research.fb.com/wp-content/uploads/2020/06/Holographic-optics_3.gif)
-
-They use a few state of the art technologies such as holographic displays and optical folding to achieve this size reduction. They have made significant progress and here I'd like to explore their work.
-
-[Link to the research video](https://www.facebook.com/academics/videos/987211405385147/)
-
-[Link to the announcement article](hhttps://research.fb.com/blog/2020/06/holographic-optics-for-thin-and-lightweight-virtual-reality/)
-
-[Link to the paper.](https://research.fb.com/wp-content/uploads/2020/06/Holographic-Optics-for-Thin-and-Lightweight-Virtual-Reality.pdf)
-
+![Sample Models made with Shapelab VR](./images/sample.png)
