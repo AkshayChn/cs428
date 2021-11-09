@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+
+<title>Akshay's page for CS 428: Virtual, Augmented and Mixed Reality - Fall 2021</title>
+
+<link rel="stylesheet" href="style.css">
+</HEAD>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<body bgcolor="#ffffff">
