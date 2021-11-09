@@ -8,14 +8,16 @@ Shapelab VR
 Introduction
 ------------
 
-While apps like Blender also allow one to sculpt like you would with clay, the keyboard and mouse workflow is no match to the intuitive feel of a virtual reality controller.
+While apps like Blender also allow one to sculpt like you would with clay, the keyboard and mouse workflow is no match to the intuitive feel of a virtual reality controller. Shapelab VR allows one to model 3D object like one would using clay.
 
 ![Sample Models made with Shapelab VR](./images/sample.png)
 
 
 Glen Southern from the SouthernGFX YouTube channel^[https://www.youtube.com/channel/UC_y11RqmSPmFEXMl6VaWZpA] has two videos reviewing this 3D creation tool. The screencapped images are taken from his video.
 
-##Dynamic Tessellation: Uses polygons instead of voxels.
+### Dynamic Tessellation
+
+Shapelab uses a technique called Dynamic Tessellation to build the underlying geometry of the 3D model as it is being sculpted. Unlike competing products in the market this does not use Volumetric Pixels(voxels) to represent its models. It rather uses a polygonal representation whereby it automatically adds the triangles and varies their density as needed. A finer detail on the model would use more denser triangles and a planar surface would use very few triangles. This has a number of advantages such as the object being easily exportable to be used in other places. 
 
 ![Wireframe view showing the dynamic tessellation at work](./images/tess.png)
 
