@@ -1,25 +1,27 @@
-Developer: Leopoly
-Name: Shapelab
 
-Early Access
 
-Headsets Supported: Valve Index, HTC Vive, Oculus Rift, Windows Mixed Reality
+\Developer: Leopoly
+\Name: Shapelab
 
-~$20 on Steam
+\Early Access
 
-Uses polygons instead of voxels.
+\Headsets Supported: Valve Index, HTC Vive, Oculus Rift, Windows Mixed Reality
 
-Minimum System Requirements: 4th Gen Intel i5 + Nvidia GTX 1060
+\~$20 on Steam
 
-Overall Steam Reviews: Very Positive
+\Uses polygons instead of voxels.
 
-Positive Review
+\Minimum System Requirements: 4th Gen Intel i5 + Nvidia GTX 1060
 
-Negative Review
+\Overall Steam Reviews: Very Positive
 
-Glen Southern from SouthernGFX(https://www.youtube.com/channel/UC_y11RqmSPmFEXMl6VaWZpA)
+\Positive Review
 
-Competing products: 
+\Negative Review
+
+\Glen Southern from SouthernGFX(https://www.youtube.com/channel/UC_y11RqmSPmFEXMl6VaWZpA)
+
+\Competing products: 
 
 Adobe Medium: Very Expensive. Aimed at professionals. Voxel based modeling.
 
@@ -31,18 +33,18 @@ Shapelab uses Dynamic Tessellation: It dynamically adds triangles beneath, as yo
 
 Better definition than voxels. 
 
-Very simple to learn.
+\Very simple to learn.
 
-You can dynamically change material as you are sculpting.
+\You can dynamically change material as you are sculpting.
 
 
-You can change the lighting and background environment on the fly.
+\You can change the lighting and background environment on the fly.
 
 Symmetry grid.
 
 Multiple objects added very recently.
 
-Tools need refining.
+\Tools need refining.
 
 Recent Update (two months ago): 
 Multiple Objects
@@ -52,11 +54,11 @@ New brushes and tools
 Flip and Mirror objects
 
 
-Left handed control switch
+\Left handed control switch
 
-Some materials override the painting, some of them don't.
+\Some materials override the painting, some of them don't.
 
-You can export the obj and you'll retain the model exactly as you had made it.
+\You can export the obj and you'll retain the model exactly as you had made it.
 
     - Introduction to what it is
     - Why is it a good use of VR or AR?
