@@ -11,24 +11,74 @@
 <h1 id="project-3-perspective">Project 3: Perspective</h1>
 <h2 id="introduction">Introduction</h2>
 <h2 id="how-to-build-it">How to build it?</h2>
-<h2 id="how-to-use-it">How to use it?</h2>
-<h3 id="the-different-scenes">The Different Scenes</h3>
+<h3 id="requirements">Requirements</h3>
+<p>Unity version 2019.4.28f1 is needed. Unity can be downloaded from <a href="https://unity3d.com/get-unity/download" class="uri">https://unity3d.com/get-unity/download</a>. I am running this on Linux, and you can download the Unity Hub Appimage for Linux on their website as well, and that will then download all the necessary apps and requirements.</p>
+<p>This app is using VRTK 4(<a href="https://www.vrtk.io/" class="uri">https://www.vrtk.io/</a>)</p>
+<p>This app needs the Oculus Quest 1 or Quest 2 headsets to run. Additionally the user may also run it the simulator in Unity, however this does not provide the full experience.</p>
+<h3 id="build-instructions">Build Instructions</h3>
+<p>GitHub Link: <a href="https://github.com/AkshayChn/csd428-project-3" class="uri">https://github.com/AkshayChn/csd428-project-3</a></p>
+<p>Clone the repository to your computer.</p>
+<p>Add this folder in Unity Hub by going to <strong>Projects</strong> and clicking on <strong>ADD</strong> button.</p>
+<p>Now open this project and Unity should automatically set up all the requirements and associated libraries.</p>
+<figure>
+<img src="./p3/unityhub.png" alt="Unity Hub" /><figcaption>Unity Hub</figcaption>
+</figure>
+<p>Connect your Quest headset to the computer and make sure you have turned on USB loading in the Developer Options.</p>
+<figure>
+<img src="./p3/android.png" alt="Switch to Android" /><figcaption>Switch to Android</figcaption>
+</figure>
+<p>The scenes should already be selected in the following order.</p>
+<figure>
+<img src="./p3/scenes.png" alt="Scene Order" /><figcaption>Scene Order</figcaption>
+</figure>
+<p>In Unity go to File -&gt; Build Settings and change the build target to Android, by clicking <em>Switch Platform</em>.</p>
+<figure>
+<img src="./p3/buildandrun.png" alt="Build and Run" /><figcaption>Build and Run</figcaption>
+</figure>
+<p>Then Click on <em>Build and Run</em>, this asks you where to save the <code>.apk</code> file, select a location and continue.</p>
+<p>Unity should now build the application and install it on the quest. When Unity shows that the build has been successful, you may unplug the Quest headset, and the app would be running on it.</p>
+<p>Note: <code>CameraRigs.UnityXR</code> is turned on by default which allows you to run the app on the Quest headsets, however if you want to run it in the simulator then turn it off and turn on the <code>CameraRigs.SpatialSimulator</code> in the scene that you are interested in.</p>
+<p>While the Simulator is fine to just look around. It is very cumbersome to actually experience all the aspects of the scenes. Using a headset is recommended for the full experience.</p>
+<h2 id="the-different-scenes-and-how-to-use-them">The Different Scenes and how to use them</h2>
 <h4 id="default-scene-and-the-menu-system">1. Default Scene and the Menu System</h4>
-<h4 id="the-land-of-the-giants">1. The Land of the Giants</h4>
-<h4 id="dancing-on-the-ceiling">1. Dancing on the Ceiling</h4>
-<h4 id="mego-playset">1. Mego Playset</h4>
-<h2 id="models-used">Models Used</h2>
+<figure>
+<img src="./p3/menu.png" alt="The Menu System" /><figcaption>The Menu System</figcaption>
+</figure>
+<p>The default scene opens with a Scene Selection Menu that is open by default. This menu can be toggled on or off with the <strong>A</strong> button on the right controller</p>
+<p>Then point with the right controller and click the joystick on the right controller to select your desired scene.</p>
+<h4 id="the-land-of-the-giants">2. The Land of the Giants</h4>
+<figure>
+<img src="./p3/giant.png" alt="The Land of the Giants Scene" /><figcaption>The Land of the Giants Scene</figcaption>
+</figure>
+<p>You’re a tiny person who is about a foot in height. You start off on a table.</p>
+<p>In this perspective all the models appear as giants, and the critters are much more scary.</p>
+<p>You can climb back on the table using the ladder.</p>
+<h4 id="dancing-on-the-ceiling">3. Dancing on the Ceiling</h4>
+<figure>
+<img src="./p3/dance.png" alt="The Dancing on the Ceiling Scene" /><figcaption>The Dancing on the Ceiling Scene</figcaption>
+</figure>
+<p>This scene allows you to tilt the room to various angles.</p>
+<p>Press the <strong>B</strong> button on the right controller. This will bring up a new menu. You can use the <strong>B</strong> button anytime to toggle this menu on or off. Using it is similar to the Scene Menu.</p>
+<p>Clicking the <strong>Left</strong> button tilts the world left on the X-axis by 10 degrees and clicking the <strong>Right</strong> button tilts the world right by 10 degrees.</p>
+<p>Clicking the <strong>Down</strong> button flips the world upside down by a 180 degrees.</p>
+<p>You can walk on walls or the ceiling by flipping the world.</p>
+<h4 id="mego-playset">4. Mego Playset</h4>
+<figure>
+<img src="./p3/mego.png" alt="The Mego Playset Scene" /><figcaption>The Mego Playset Scene</figcaption>
+</figure>
+<p>In this scene the entire room is now the size of a shoebox.</p>
+<h2 id="models-used-from-the-web">Models Used from the Web</h2>
 <ol type="1">
 <li>Animated Spider by prism bucket Link: https://assetstore.unity.com/packages/3d/characters/animals/insects/animated-spider-22986</li>
 </ol>
 <figure>
-<img src="./p3/spider1.png" alt="Animated Spider" /><figcaption>Animated Spider</figcaption>
+<img src="./p3/spider1.png" alt="1. First Spider" /><figcaption>1. First Spider</figcaption>
 </figure>
 <ol start="2" type="1">
 <li>Fantasy Bee by amusedART Link: https://assetstore.unity.com/packages/3d/characters/animals/fantasy-bee-135487</li>
 </ol>
 <figure>
-<img src="./p3/bee.png" alt="Fantasy Bee" /><figcaption>Fantasy Bee</figcaption>
+<img src="./p3/bee.png" alt="2. The Bee" /><figcaption>2. The Bee</figcaption>
 </figure>
 <ol start="3" type="1">
 <li>Banana: Food Pack - 3D Microgames by Unity Tech Link: https://assetstore.unity.com/packages/3d/food-pack-3d-microgames-add-ons-163295</li>
@@ -40,43 +90,53 @@
 <li>Watermelon: Food Pack - 3D Microgames by Unity Tech Link: https://assetstore.unity.com/packages/3d/food-pack-3d-microgames-add-ons-163295</li>
 </ol>
 <figure>
-<img src="./p3/food.png" alt="Food Stuff" /><figcaption>Food Stuff</figcaption>
+<img src="./p3/food.png" alt="3–9. Food Stuff" /><figcaption>3–9. Food Stuff</figcaption>
 </figure>
 <ol start="10" type="1">
 <li>Table: Modern Table with Chair by Aquvelous Link: https://assetstore.unity.com/packages/3d/props/interior/modern-table-with-chairs-83834</li>
 </ol>
 <figure>
-<img src="./p3/table.png" alt="Table" /><figcaption>Table</figcaption>
+<img src="./p3/table.png" alt="10. Table" /><figcaption>10. Table</figcaption>
 </figure>
 <ol start="11" type="1">
 <li>Chair: Modern Table with Chair by Aquvelous Link: https://assetstore.unity.com/packages/3d/props/interior/modern-table-with-chairs-83834</li>
 </ol>
 <figure>
-<img src="./p3/chair.png" alt="Chair" /><figcaption>Chair</figcaption>
+<img src="./p3/chair.png" alt="11. Chair" /><figcaption>11. Chair</figcaption>
 </figure>
 <ol start="12" type="1">
 <li>Low Poly Trashbin by The Location Lab Link: https://assetstore.unity.com/packages/3d/low-poly-trashbin-60789</li>
 </ol>
 <figure>
-<img src="./p3/lptrash.png" alt="Low Ply Trashbin" /><figcaption>Low Ply Trashbin</figcaption>
+<img src="./p3/lptrash.png" alt="12. Low Ply Trashbin" /><figcaption>12. Low Ply Trashbin</figcaption>
 </figure>
 <ol start="13" type="1">
 <li>Trash Can1: Trash Can by ozgur Link: https://assetstore.unity.com/packages/3d/props/exterior/trash-can-23183</li>
 <li>Trash Can2: Trash Can by ozgur Link: https://assetstore.unity.com/packages/3d/props/exterior/trash-can-23183</li>
 </ol>
 <figure>
-<img src="./p3/trash.png" alt="Trash Cans" /><figcaption>Trash Cans</figcaption>
+<img src="./p3/trash.png" alt="13, 14. Trash Cans" /><figcaption>13, 14. Trash Cans</figcaption>
 </figure>
 <ol start="15" type="1">
 <li>Egypt Pack - Spider Demo by Openlab Link: https://assetstore.unity.com/packages/3d/characters/animals/insects/egypt-pack-spider-demo-165807</li>
 </ol>
 <figure>
-<img src="./p3/spider2.png" alt="Second Spider" /><figcaption>Second Spider</figcaption>
+<img src="./p3/spider2.png" alt="15. Second Spider" /><figcaption>15. Second Spider</figcaption>
 </figure>
 <h2 id="video">Video</h2>
 <p>Video can be found at <a href="https://www.youtube.com/watch?v=IpevtdwvZZg" class="uri">https://www.youtube.com/watch?v=IpevtdwvZZg</a></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IpevtdwvZZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 <h2 id="discussion-the-different-perspectives">Discussion: The different perspectives</h2>
+<ol type="1">
+<li>internal mental view of the scene and all its parts.</li>
+</ol>
+<p>The Ames Room Illusion(<a href="https://en.wikipedia.org/wiki/Ames_room" class="uri">https://en.wikipedia.org/wiki/Ames_room</a>) as seen below is a famous example of how we perceive.</p>
+<figure>
+<img src="./p3/pers.gif" alt="Perspective Room: Source https://tenor.com/view/perspective-pass-ball-big-small-gif-13986062" /><figcaption>Perspective Room: Source https://tenor.com/view/perspective-pass-ball-big-small-gif-13986062</figcaption>
+</figure>
+<ol start="2" type="1">
+<li>Where do you see this being useful in the real world.</li>
+</ol>
 </body>
 </HTML>
