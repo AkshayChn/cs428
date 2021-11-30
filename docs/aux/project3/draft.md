@@ -4,8 +4,17 @@ Project 3: Perspective
 
 Introduction
 ------------
+Hello! Welcome to Project 3. This virtual reality experience takes you through four scenes each of which allow you to view the same scene from a different perspective.
 
+The scene is there to help the user deal with the fear of insects, spiders and such small critters. Viewing them in different perspectives helps the user understand them better, and overcome their fear.
 
+The four scenes are:
+1. The Default One: Where you are just a normal sized person moving around the room
+2. The Land of the Giants: Where you are a tiny person who is about a foot in height.
+3. Dancing on the Ceiling: Where the room rotates as per your will and allows you to walk on the walls and the ceiling.
+4. The Mego Playset: Where the entire room is the size of a shoebox.
+
+Each of these scenes can be toggled using a Menu System. The descriptions of each of the scenes along with instructions on using the menu system will be soon seen below.
 
 How to build it?
 ----------------
