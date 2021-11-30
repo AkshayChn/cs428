@@ -187,6 +187,8 @@ In conclusion, our mental image of the world is very easily influenced by what w
 
 5. _Animal Behavior Studies_: Animals, especially the small ones, exhibit peculiar behavior at times that only makes sense at their scale. Tiny insects can drown in the dew drops formed on leaves of plants. Mosquitoes seem to be fairly resistant to rain([Video](https://www.youtube.com/watch?v=XWyoy44oV3Q)). A warthog hides safely in an otherwise dangerously accessible hole([Video](https://www.youtube.com/watch?v=atscgwWdX6Q)). Behavior such as these and many other counter intuitive ones can be better understood if we can experience the world in the same scale and perspective as them.
 
+## Meta Information
 
+This documentation was first written in MarkDown and the HTML files for this documentation were built using Pandoc (<https://pandoc.org/>). The `css` file was custom written, credits for the Anaglyph effect used in headings, is available in the `style.css` file.
  
 
