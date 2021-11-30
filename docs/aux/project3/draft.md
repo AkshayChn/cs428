@@ -4,9 +4,9 @@ Project 3: Perspective
 
 Introduction
 ------------
-Hello! Welcome to Project 3. This virtual reality experience takes you through four scenes each of which allow you to view the same scene from a different perspective.
+Hello! Welcome to Project 3. This virtual reality experience takes you through four scenes, each of which allow you to view the same environment from a different perspective.
 
-The scene is there to help the user deal with the fear of insects, spiders and such small critters. Viewing them in different perspectives helps the user understand them better, and overcome their fear.
+The environment is there to help the user deal with the fear of insects, spiders and such small critters. Viewing them from different perspectives helps the user understand them better, and overcome their fear.
 
 The four scenes are:
 1. The Default One: Where you are just a normal sized person moving around the room
@@ -14,7 +14,7 @@ The four scenes are:
 3. Dancing on the Ceiling: Where the room rotates as per your will and allows you to walk on the walls and the ceiling.
 4. The Mego Playset: Where the entire room is the size of a shoebox.
 
-Each of these scenes can be toggled using a Menu System. The descriptions of each of the scenes along with instructions on using the menu system will be soon seen below.
+Each of these scenes can be toggled using a Menu System. The instructions to build and use the app, the descriptions of each of the scenes, and the instructions on using the menu system are as follows.
 
 How to build it?
 ----------------
@@ -25,7 +25,7 @@ Unity version 2019.4.28f1 is needed. Unity can be downloaded from <https://unity
 
 This app is using VRTK 4(<https://www.vrtk.io/>)
 
-This app needs the Oculus Quest 1 or Quest 2 headsets to run. Additionally the user may also run it the simulator in Unity, however this does not provide the full experience.
+This app needs the Oculus Quest 1 or Quest 2 headsets to run. Additionally the user may also run it in the simulator in Unity, however this does not provide the full experience.
 
 ### Build Instructions
 
