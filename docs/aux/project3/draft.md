@@ -70,7 +70,9 @@ The Different Scenes and how to use them
 
 ![The Menu System](./p3/menu.png)
 
-The default scene opens with a Scene Selection Menu that is open by default. This menu can be toggled on or off with the **A** button on the right controller
+In this scene you are a normal sized person who can teleport around the room using the left controller.
+
+This default scene opens with a Scene Selection Menu that is open by default. This menu can be toggled on or off with the **A** button on the right controller
 
 Then point with the right controller and click the joystick on the right controller to select your desired scene.
 
@@ -79,17 +81,17 @@ Then point with the right controller and click the joystick on the right control
 
 ![The Land of the Giants Scene](./p3/giant.png)
 
-You're a tiny person who is about a foot in height. You start off on a table.
+In this scene, you're a tiny person who is about a foot in height. You start off on a table. You can teleport around like before except everything now looks massive compared to your own size.
 
 In this perspective all the models appear as giants, and the critters are much more scary.
 
-You can climb back on the table using the ladder.
+You can climb back on the table using the ladder. You'll be using the middle finger buttons on each of the controller to latch on to the ladder while climbing the table.
 
 #### 3. Dancing on the Ceiling
 
 ![The Dancing on the Ceiling Scene](./p3/dance.png)
 
-This scene allows you to tilt the room to various angles.
+This scene will help you experience the world in different orientations. This scene allows you to tilt the room to various angles.
 
 Press the **B** button on the right controller. This will bring up a new menu. You can use the **B** button anytime to toggle this menu on or off. Using it is similar to the Scene Menu.
 
@@ -104,6 +106,8 @@ You can walk on walls or the ceiling by flipping the world.
 ![The Mego Playset Scene](./p3/mego.png)
 
 In this scene the entire room is now the size of a shoebox. This world gives you the perspective of being a giant, and everything that you were afraid of in that room, is now insignificant compared to your stature. 
+
+You can move around by teleporting just as before.
 
 Models Used from the Web
 ------------------------
