@@ -146,7 +146,8 @@ Video can be found at <https://www.youtube.com/watch?v=IpevtdwvZZg>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IpevtdwvZZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Discussion: The different perspectives
---------------------------------------
+======================================
+
 ### Internal mental view of the scene and all its parts
 
 The Ames Room Illusion(<https://en.wikipedia.org/wiki/Ames_room>) as seen below is a famous example of how we perceive things.
