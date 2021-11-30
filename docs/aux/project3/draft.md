@@ -1,6 +1,7 @@
 Project 3: Perspective
 ======================
 
+![Main Image](./p3/main.png)
 
 Introduction
 ------------
