@@ -153,9 +153,16 @@ The Ames Room Illusion(<https://en.wikipedia.org/wiki/Ames_room>) as seen below 
 
 ![Perspective Room: Source https://tenor.com/view/perspective-pass-ball-big-small-gif-13986062](./p3/pers.gif )
 
-Our perspective of the world is entirely dependent on the stimulus received by our senses. By changing the relative sizes of things, our brain comes up with interpretations of what it sees and selects the one which seems to be the most plausible. In the Ames Room Illusion, it is far more plausible according to our brain's visual processing that the human is tiny, rather than the room being distorted.
+Our perspective of the world is entirely dependent on the stimulus received by our senses. By changing the relative sizes of things, our brain comes up with interpretations of what it sees, and then, it selects the one which seems to be the most plausible. In the Ames Room Illusion, it is far more plausible according to our brain's visual processing system, that the human is tiny, rather than the room being distorted.
 
-In my Dancing on the Ceiling Scene as the floor below us shifts when the room turns, we feel a loss of balance, even though we may be sitting safely on a chair in the real world. This is because our internal mental image of the world depends a lot on our vision. And when it shifts, we feel as though we are very strongly affected by it.
+In my _Dancing on the Ceiling_ Scene, as the floor below us shifts when the room turns, we feel a loss of balance, even though we may be sitting safely on a chair in the real world. This is because our internal mental image of the world depends a lot on our vision. And when it shifts, we feel as though we are very strongly affected by it. In the _Mego Playset_ version, we feel as though the room is a plaything, and nothing that is dangerous.
+
+
+The philosopher [George Berkeley](https://en.wikipedia.org/wiki/George_Berkeley) is famous for his theory of Subjective Idealism. Wherein he argues that the world as seen by us only really exists in our mind. That is we aren't aware of the world as it is, but rather we are only aware of the image of the world that our mind recreates from our senses. The very natural implication of this is that as long as the subject is concerned, a virtually created world is just as real as the real world.
+
+On a related note there is a famous thought experiment in philosophy called the ["Brain in a vat"](https://en.wikipedia.org/wiki/Brain_in_a_vat), where in there is an isolated brain kept alive in a jar, hooked up to a bunch of wires that provide the brain with the right neural impulses so as to make the brain think that it is in the real world. This experiment and its associated discourse is helpful in understanding why it isn't surprising just how much our mental image of the world is influenced by virtual reality experiences.
+
+In conclusion, our mental image of the world is very easily influenced by what we perceive. And this can be used for good.
 
 ### Uses in the real world
 
