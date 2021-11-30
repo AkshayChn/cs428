@@ -9,6 +9,7 @@ Hello! Welcome to Project 3. This virtual reality experience takes you through f
 The environment is there to help the user deal with the fear of insects, spiders and such small critters. Viewing them from different perspectives helps the user understand them better, and overcome their fear.
 
 The four scenes are:
+
 1. The Default One: Where you are just a normal sized person moving around the room
 2. The Land of the Giants: Where you are a tiny person who is about a foot in height.
 3. Dancing on the Ceiling: Where the room rotates as per your will and allows you to walk on the walls and the ceiling.
